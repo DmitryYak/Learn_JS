@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <script src="alert.js"></script> -->
+    <script>
+      //   let myName = prompt("what is your name?");
+      //   alert(myName);
+
+      //   let age = prompt("how old is Dmitry", "");
+      //   if (age == 37) {
+      //     alert("great, you are right!");
+      //     alert("congratulate!");
+      //   }
+
+      //   let myName = prompt("how old is Dmitry?", "");
+      //   if (myName == 37) {
+      //     alert("great!!!");
+      //   } else {
+      //     alert("it's a mistake");
+      //   }
+
+      //   let birthay = prompt("when is your birthay", "");
+      //   if (birthay > 14) {
+      //     alert("it's too late");
+      //   } else if (birthay < 14) {
+      //     alert("it's too early");
+      //   } else if (birthay == 14) {
+      //     alert("great!!!");
+      //   } else {
+      //     alert("mistake");
+      //   }
+
+      //   let ageTwo = prompt("how old are you?", 18);
+      //   let message =
+      //     ageTwo < 3
+      //       ? "good morning baby)"
+      //       : ageTwo < 18
+      //       ? "hello"
+      //       : ageTwo < 100
+      //       ? "crazy"
+      //       : "too much";
+      //   alert(message);
+
+      //   let nameJs = prompt("Which oficial name of JavaScript", "");
+      //   if (nameJs == "ECMAScript") {
+      //     alert("right!");
+      //   } else alert("didn't you?");
+
+      //   let value = prompt("what value?", "");
+      //   if (value > 0) {
+      //     alert(1);
+      //   } else if (value < 0) {
+      //     alert(-1);
+      //   } else {
+      //     alert(0);
+      //   }
+
+      //   let result = a + b < 4 ? "little" : "a lot";
+      //   alert(result);
+
+      // let login = prompt("");
+      // login == "Сотрудник" ? alert("Hello!") : alert("");
+      // login == "Директор" ? alert("Good morning!") : alert("");
+
+      let login = prompt("");
+
+      if (login == "Admin") {
+        var password = prompt("", "add your password");
+        if (password == "" || password == null) {
+          alert("Cancel");
+        } else if (password == "i main") {
+          alert("hello");
+        } else {
+          alert("wrong password");
+        }
+      } else if (login == "" || login == null) {
+        alert("Canceled");
+      } else {
+        alert("I don't know you");
+      }
+
+      // alert(login);
+    </script>
+  </body>
+</html>
