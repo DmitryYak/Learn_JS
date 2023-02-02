@@ -27,3 +27,9 @@ while (counter < 5) {
   console.log(counter);
   counter++;
 }
+
+let reCounter = 15;
+while (reCounter != 0) {
+  console.log(`reCounter = ${reCounter}`);
+  reCounter--;
+}
