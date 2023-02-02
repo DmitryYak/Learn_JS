@@ -19,5 +19,11 @@
 
 // alert(isBoss);
 
-let myLogin = prompt("");
-alert(result);
+// let myLogin = prompt("");
+// alert(result);
+
+let counter = 0;
+while (counter < 5) {
+  console.log(counter);
+  counter++;
+}
