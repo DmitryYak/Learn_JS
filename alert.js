@@ -34,9 +34,14 @@
 //   reCounter--;
 // }
 
-let shortCounter = 5;
-while (shortCounter) {
-  console.log(`short = ${shortCounter}`);
-  shortCounter--;
+// let shortCounter = 5;
+// while (shortCounter) {
+//   console.log(`short = ${shortCounter}`);
+//   shortCounter--;
+// }
+
+// while (shortCounter) console.log(shortCounter--);
+
+for (let i = 0; i < 5; i++) {
+  alert(i);
 }
-while (shortCounter) console.log(shortCounter--);
