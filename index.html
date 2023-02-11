@@ -134,13 +134,27 @@
       //   alert(i);
       // }
 
-      let fitAge = +prompt("", "add age");
-      switch (fitAge) {
-        case 18:
-          alert("good");
-          break;
-        default:
-          alert("i don't know");
+      // let fitAge = +prompt("", "add age");
+      // switch (fitAge) {
+      //   case 18:
+      //     alert("good");
+      //     break;
+      //   default:
+      //     alert("i don't know");
+      // }
+
+      let browser = prompt("what is your browser", "");
+      if (browser == "edge") {
+        alert("you've got the Edge!");
+      } else if (
+        browser == "chrome" ||
+        browser == "firefox" ||
+        browser == "safari" ||
+        browser == "opera"
+      ) {
+        alert("Okay we support these browsers");
+      } else {
+        alert("this page not ok");
       }
     </script>
   </body>
