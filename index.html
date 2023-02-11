@@ -143,18 +143,32 @@
       //     alert("i don't know");
       // }
 
-      let browser = prompt("what is your browser", "");
-      if (browser == "edge") {
-        alert("you've got the Edge!");
-      } else if (
-        browser == "chrome" ||
-        browser == "firefox" ||
-        browser == "safari" ||
-        browser == "opera"
-      ) {
-        alert("Okay we support these browsers");
-      } else {
-        alert("this page not ok");
+      // let browser = prompt("what is your browser", "");
+      // if (browser == "edge") {
+      //   alert("you've got the Edge!");
+      // } else if (
+      //   browser == "chrome" ||
+      //   browser == "firefox" ||
+      //   browser == "safari" ||
+      //   browser == "opera"
+      // ) {
+      //   alert("Okay we support these browsers");
+      // } else {
+      //   alert("this page not ok");
+      // }
+
+      const number = +prompt("add number");
+      switch (number) {
+        case 0:
+          alert("you added number 8");
+          break;
+        case 1:
+          alert("you added number 1");
+          break;
+        case 2:
+        case 3:
+          alert("you added number 2 or 3");
+          break;
       }
     </script>
   </body>
