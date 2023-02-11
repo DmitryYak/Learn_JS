@@ -42,6 +42,11 @@
 
 // while (shortCounter) console.log(shortCounter--);
 
-for (let i = 0; i < 5; i++) {
-  alert(i);
-}
+// for (let i = 0; i < 5; i++) {
+//   alert(i);
+// }
+let dataNow = new Date();
+let dataMeeting = new Date(2023, 11, 17);
+dataNow.setDate(dataNow.getDate() + 65);
+console.log(dataNow);
+console.log(dataMeeting);
