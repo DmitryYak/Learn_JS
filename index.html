@@ -157,18 +157,28 @@
       //   alert("this page not ok");
       // }
 
-      const number = +prompt("add number");
-      switch (number) {
-        case 0:
-          alert("you added number 8");
-          break;
-        case 1:
-          alert("you added number 1");
-          break;
-        case 2:
-        case 3:
-          alert("you added number 2 or 3");
-          break;
+      // const number = +prompt("add number");
+      // switch (number) {
+      //   case 0:
+      //     alert("you added number 8");
+      //     break;
+      //   case 1:
+      //     alert("you added number 1");
+      //     break;
+      //   case 2:
+      //   case 3:
+      //     alert("you added number 2 or 3");
+      //     break;
+      // }
+
+      // functions
+
+      function checkAge(age) {
+        return age > 18 ? true : confirm("are you shure?");
+      }
+
+      function checkAge(age) {
+        return age > 18 || confirm("are you shure?");
       }
     </script>
   </body>
