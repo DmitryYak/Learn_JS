@@ -200,19 +200,36 @@
       // }
       // pow(3, 3);
 
-      function pow(x, n) {
-        let result = x;
+      // function pow(x, n) {
+      //   let result = x;
 
-        for (let i = 1; i < n; i++) {
-          result = result * x;
-        }
+      //   for (let i = 1; i < n; i++) {
+      //     result = result * x;
+      //   }
 
-        return result;
+      //   return result;
+      // }
+
+      // let x = prompt("", "");
+      // let n = prompt("", "");
+      // // alert(pow(x, n));
+      // let isBoss = confirm("yes");
+      // alert(isBoss);
+
+      function ask(question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
       }
 
-      let x = prompt("", "");
-      let n = prompt("", "");
-      alert(pow(x, n));
+      function showYes() {
+        alert("you are agree");
+      }
+
+      function showNo() {
+        alert("you don't agrese");
+      }
+
+      ask("do you agree?", showYes, showNo);
     </script>
   </body>
 </html>
