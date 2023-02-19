@@ -221,15 +221,25 @@
         else no();
       }
 
-      function showYes() {
-        alert("you are agree");
-      }
+      // function showYes() {
+      //   alert("you are agree");
+      // }
 
-      function showNo() {
-        alert("you don't agrese");
-      }
+      // function showNo() {
+      //   alert("you don't agrese");
+      // }
 
-      ask("do you agree?", showYes, showNo);
+      // ask("do you agree?", showYes, showNo);
+
+      ask(
+        "are you agree?",
+        function () {
+          alert("you agree");
+        },
+        function () {
+          alert("you don't agree");
+        }
+      );
     </script>
   </body>
 </html>
